@@ -6,7 +6,6 @@ static CString s_wndclazz;
 IMPLEMENT_DYNAMIC(MyWnd, CWnd)
 
 BEGIN_MESSAGE_MAP(MyWnd, CWnd)
-    ON_WM_CREATE()
 END_MESSAGE_MAP()
 
 void MyWnd::RegisterWndClazz()
