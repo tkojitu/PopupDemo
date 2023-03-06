@@ -183,6 +183,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="MyWnd.h" />
     <ClInclude Include="PopupDemo.h" />
     <ClInclude Include="PopupDemoDlg.h" />
     <ClInclude Include="resource.h" />
@@ -190,6 +191,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="MyWnd.cpp" />
     <ClCompile Include="PopupDemo.cpp" />
     <ClCompile Include="PopupDemoDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
